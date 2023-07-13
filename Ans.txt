@@ -1,0 +1,81 @@
+________________________________________________________________________________________________________________________________
+
+Q1. Whats React and its pros and cons?
+
+React is a JavaScript library for building user interfaces. It is declarative, efficient, and flexible. 
+
+React's pros include:
+
+Declarative: React code is declarative, which means that you describe what you want the UI to look like, not how to render it. This makes React code easier to read and understand.
+Efficient: React uses a virtual DOM to represent the UI. This means that React only updates the parts of the UI that actually need to be updated, which makes React very efficient.
+Flexible: React is very flexible and can be used to build a wide variety of UIs.
+
+React's cons include:
+
+Learning curve: React has a bit of a learning curve, but it is not too difficult to learn.
+State management: React does not have a built-in state management solution, so you will need to use a third-party library if you need to manage state.
+
+________________________________________________________________________________________________________________________________
+
+Q2. What do you understand by Virtual Dom?
+
+The virtual DOM is a lightweight JavaScript representation of the Document Object Model (DOM). It is used in React and other JavaScript frameworks to improve the performance of UI rendering.
+
+The virtual DOM is a copy of the DOM that is stored in memory. When you make changes to the virtual DOM, React only updates the parts of the DOM that actually need to be updated. This is much more efficient than updating the entire DOM every time you make a change to the UI.
+
+________________________________________________________________________________________________________________________________
+
+Q3. Difference between Virtual Dom vs Real Dom
+
+The main difference between the virtual DOM and the real DOM is that the virtual DOM is a lightweight copy of the real DOM. This means that the virtual DOM is much faster to update than the real DOM.
+
+Another difference between the virtual DOM and the real DOM is that the virtual DOM is a tree-based structure, while the real DOM is a linked list. This makes it easier to compare the virtual DOM to the real DOM and to find the changes that need to be made.
+
+________________________________________________________________________________________________________________________________
+
+Q4. Whats component? Types of component
+
+A component is a reusable piece of code that is used to build UIs. Components are the building blocks of React applications.
+
+There are two types of components in React: class components and function components.
+
+Class components are the original type of component in React. They are defined using the class keyword.
+Function components are a newer type of component in React. They are defined using the function keyword.
+
+________________________________________________________________________________________________________________________________
+
+Q5. Difference between class & function based component
+
+The main difference between class components and function components is that class components have a lifecycle, while function components do not.
+
+The lifecycle of a class component is a series of methods that are called at different points in the life of the component. These methods allow you to perform tasks such as initializing the component, rendering the component, and updating the component.
+
+Function components do not have a lifecycle. This means that you cannot perform tasks such as initializing the component, rendering the component, and updating the component in a function component.
+
+________________________________________________________________________________________________________________________________
+
+Q6. Explain react component life cycle
+
+The lifecycle of a React component is a series of methods that are called at different points in the life of the component. These methods allow you to perform tasks such as initializing the component, rendering the component, and updating the component.
+
+The following are the lifecycle methods of a React component:
+
+constructor(): This method is called when the component is first created.
+componentDidMount(): This method is called after the component has been mounted to the DOM.
+render(): This method is called to render the component.
+componentDidUpdate(): This method is called after the component has been updated.
+componentWillUnmount(): This method is called before the component is unmounted from the DOM.
+
+________________________________________________________________________________________________________________________________
+
+Q7. Explain Prop Drilling in React & Ways to avoid it
+
+Prop drilling is a pattern in React where props are passed down through multiple levels of components. This can make your code difficult to read and maintain.
+
+There are a few ways to avoid prop drilling:
+
+Use higher-order components (HOCs). HOCs are a way to reuse code and share functionality across multiple components.
+Use context. Context is a way to share data between components without having to pass props down through multiple levels.
+Use functional components. Functional components do not have a state or lifecycle, so they cannot receive props. This can help to prevent prop drilling.
+
+________________________________________________________________________________________________________________________________
